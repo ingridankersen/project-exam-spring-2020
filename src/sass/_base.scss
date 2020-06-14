@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: SocialMedia;
+    src: url('./../fonts/SocialMediaCircled.otf');
+}
+
+body {
+    font-family: $main-font;
+    font-size: 16px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+article, section {
+    margin: 70px 0;
+}
+
+p {
+    text-align: left;
+    line-height: 23px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    color: white;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+h1:after {
+    content: ".";
+}
+
+h2 {
+    font-size: 25px;
+    color: $dark-blue;
+    font-weight: bold;
+    text-align: left;
+}
+
+h3 {
+    font-size: 25px;
+    color: $medium-blue;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    color: $medium-blue;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 15px;
+    color: $light-blue;
+}
+
+a, a:link, a:active {
+    @include transition(0.3s);
+    color: $dark-blue;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+li::before {
+    content: "▶";
+    color: $dark-blue;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+li {
+    background-color: $light-grey;
+    padding: 10px;
+    margin: 3px 0;
+}
+
+button {
+    @include transition(0.3s);
+    background-color: transparent;
+    border: 0;
+    font-family: $main-font;
+}
+
+.button {
+    padding: 10px 40px;
+    background-color: $medium-blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
+
+.delete-btn {
+    @extend .button;
+    background-color: $dark-peach;
+}
+
+.loading {
+    color: $medium-blue;
+}
+
+.dark-grey {
+    color: $dark-grey;
+}
+
+.medium-blue {
+    color: $medium-blue;
+}
+
+.dark-blue {
+    color: $dark-blue;
+}
+
+.divider {
+    width: 90%;
+    height: 3px;
+    background-color: $light-blue;
+    margin: 50px auto;
+}
+
+.hide {
+    display: none;
+}
+
+.hide--mobile {
+    display: none;
+}

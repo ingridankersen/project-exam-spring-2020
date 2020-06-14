@@ -1,0 +1,28 @@
+footer {
+    background-color: $medium-blue;
+    text-align: center;
+    margin: 70px 0 0;
+    padding: 20px;
+    color: white;
+
+    .footer__social-media {
+        margin: 25px 0;
+    
+        button {
+            font-family: 'SocialMedia';
+            color: white;
+            margin: 0;    
+            font-size: 30px;
+    
+        }
+    }
+
+    .logo {
+        margin: 25px 0;
+    }
+
+    p {
+        margin: 0;
+        text-align: center;
+    }
+}

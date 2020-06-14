@@ -1,0 +1,35 @@
+.reviews {
+    margin: 70px 0;
+}
+
+.review {
+    position: relative;
+    padding: 15px;
+    background-color: white;
+
+    img {
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+}
+
+.review__message {
+    text-align: left;
+    font-style: italic;
+
+}
+
+.review__info {
+    text-align: left;
+
+    h4 {
+        margin: 0;
+    }
+
+    i {
+        color: $medium-blue;
+    }
+}

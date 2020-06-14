@@ -1,0 +1,45 @@
+.accommodations {
+
+    .accommodations__card {
+        margin: 30px 0;
+        padding: 10px;
+        border: 1px solid $light-blue;
+        border-radius: 0;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    h3 {
+        margin: 10px 0;
+        text-align: left;
+    }
+
+    b {
+        color: $dark-blue;
+    }
+}
+
+.hotel__heading {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel__weather {
+    background-color: $medium-peach;
+    color: white;
+    padding: 7px;
+    width: 200px;
+}
+
+.hotel__info {
+    p {
+        max-width: 400px;
+        margin: 20px;
+    }
+}
+
+.hotel__description {
+    font-style: italic;
+}

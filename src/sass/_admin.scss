@@ -1,0 +1,52 @@
+ .admin__header {
+     background-color: $medium-blue;
+     padding: 20px 10px;
+     color: white;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+
+     .logo {
+         width: 100%;
+         margin-right: 10px;
+
+         h1 {
+             font-size: 25px;
+         }
+     }
+ } 
+
+ .null {
+     display: none;
+ }
+
+ .admin__user {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 10px;
+
+     p {
+         margin: 0 10px 0;
+         padding: 0;
+     }
+ }
+
+ .logout-btn { 
+    color: white;
+    background-color: $dark-blue;
+    padding: 3px;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 90px;
+ }
+
+ .admin__nav a {
+    color: white;
+ }
+
+ .admin__nav > * {
+    display: block;
+ }
